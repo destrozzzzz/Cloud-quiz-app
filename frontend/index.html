@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzer</title>
+    
+    <!-- Google Font (Bold & Playful) -->
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Quizzer</h1>
+        
+        <!-- Timer -->
+        <div id="timer">Time Left: <span id="time-left">30</span>s</div>
+        
+        <!-- Question Box -->
+        <div id="question-container"></div>
+
+        <!-- Options -->
+        <div id="options-container"></div>
+
+        <!-- Next Button -->
+        <button id="next-btn">Next Question</button>
+    </div>
+
+    <!-- Result Section -->
+    <div id="result-container">
+        <h2>Quiz Completed!</h2>
+        <p>Your Score: <span id="score"></span>/10</p>
+        <button id="restart-btn">Restart Quiz</button>
+    </div>
+
+    <!-- Link to JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
